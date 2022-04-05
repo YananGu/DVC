@@ -21,7 +21,7 @@ requirements.txt
   python general_main.py --data cifar10 --cl_type nc --agent ER_DVC --retrieve MGI --update random --mem_size 200 --dl_weight 2.0  --num_tasks 5
  ```
  
- ### mini-Imagenet
+ ### Mini-Imagenet
 ```shell
 python general_main.py --data  mini_imagenet --cl_type nc --agent ER_DVC  --retrieve MGI --update random --mem_size 1000 --dl_weight 4.0
  ```
