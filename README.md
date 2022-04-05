@@ -30,6 +30,6 @@ python general_main.py --data  mini_imagenet --cl_type nc --agent ER_DVC  --retr
  
  
  
- 
- Our code is built on [online-continual-learning](https://github.com/RaptorMai/online-continual-learning)
+ ## Reference
+[online-continual-learning](https://github.com/RaptorMai/online-continual-learning)
  
