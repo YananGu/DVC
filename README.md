@@ -3,6 +3,14 @@ Code For CVPR2022 paper "Not Just Selection, but Exploration: Online Class-Incre
 
 ## Usage
 
+### Requirements
+requirements.txt
+
+### Data preparation
+- CIFAR10 & CIFAR100 will be downloaded during the first run. (datasets/cifar10;/datasets/cifar100)
+- Mini-ImageNet: Download from https://www.kaggle.com/whitemoon/miniimagenet/download, and place it in datasets/mini_imagenet/
+
+
 ### CIFAR-100
 ```shell
   python general_main.py --data  cifar100 --cl_type nc --agent ER_DVC  --retrieve MGI --update random --mem_size 1000 --dl_weight 4.0
@@ -15,7 +23,7 @@ Code For CVPR2022 paper "Not Just Selection, but Exploration: Online Class-Incre
  
  ### mini-Imagenet
 ```shell
-python general_main.py --data  mini_imagenet --cl_type nc --agent ER_DVC  --retrieve MGI --update random --mem_size 5000 --dl_weight 4.0
+python general_main.py --data  mini_imagenet --cl_type nc --agent ER_DVC  --retrieve MGI --update random --mem_size 1000 --dl_weight 4.0
  ```
  
  
@@ -23,5 +31,5 @@ python general_main.py --data  mini_imagenet --cl_type nc --agent ER_DVC  --retr
  
  
  
- Our code is support by [online-continual-learning](https://github.com/RaptorMai/online-continual-learning)
+ Our code is built on [online-continual-learning](https://github.com/RaptorMai/online-continual-learning)
  
