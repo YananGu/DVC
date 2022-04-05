@@ -1,7 +1,0 @@
-parameters:
-  agent: ER
-  update: random
-  retrieve: random
-  mem_size: 1000
-  eps_mem_batch: 50
-  model_name: RP_ER_1k

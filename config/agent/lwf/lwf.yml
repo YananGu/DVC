@@ -1,4 +1,0 @@
-parameters:
-  agent: LWF
-  temperature: 2
-  model_name: LWF
