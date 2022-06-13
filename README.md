@@ -32,4 +32,5 @@ python general_main.py --data  mini_imagenet --cl_type nc --agent ER_DVC  --retr
  
  ## Reference
 [online-continual-learning](https://github.com/RaptorMai/online-continual-learning)
+[agmax](https://github.com/roatienza/agmax)
  
