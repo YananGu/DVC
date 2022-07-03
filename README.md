@@ -34,4 +34,17 @@ python general_main.py --data  mini_imagenet --cl_type nc --agent ER_DVC  --retr
 [online-continual-learning](https://github.com/RaptorMai/online-continual-learning)
 
 [agmax](https://github.com/roatienza/agmax)
- 
+
+
+If our code or models help your work, please cite our [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Not_Just_Selection_but_Exploration_Online_Class-Incremental_Continual_Learning_via_CVPR_2022_paper.pdf):
+
+```shell
+@InProceedings{Gu_2022_CVPR,
+    author    = {Gu, Yanan and Yang, Xu and Wei, Kun and Deng, Cheng},
+    title     = {Not Just Selection, but Exploration: Online Class-Incremental Continual Learning via Dual View Consistency},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {7442-7451}
+}
+```
