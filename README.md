@@ -1,5 +1,5 @@
 # DVC
-Code For CVPR2022 paper "Not Just Selection, but Exploration: Online Class-Incremental Continual Learning via Dual View Consistency"
+Code For CVPR2022 paper "[Not Just Selection, but Exploration: Online Class-Incremental Continual Learning via Dual View Consistency](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Not_Just_Selection_but_Exploration_Online_Class-Incremental_Continual_Learning_via_CVPR_2022_paper.pdf)"
 
 ## Usage
 
