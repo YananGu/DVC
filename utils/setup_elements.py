@@ -72,7 +72,7 @@ def setup_architecture(params):
             model.backbone.linear = nn.Linear(640, nclass, bias=True)
         else:
             model = Reduced_ResNet18(nclass)
-            model.backbone.linear = nn.Linear(640, nclass, bias=True)
+            model.linear = nn.Linear(640, nclass, bias=True)
         return model
     elif params.data == 'openloris':
         return Reduced_ResNet18(nclass)
